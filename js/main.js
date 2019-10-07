@@ -5,7 +5,7 @@ function setup()
   createCanvas(300,300,WEBGL);
   s = createSlider(0,255,100);
   s.position(10,10);
-  bro = loadModel('../assets/bro-3d.obj');
+  bro = loadModel('../assets/me3d.obj');
 }
 function draw()
 {
